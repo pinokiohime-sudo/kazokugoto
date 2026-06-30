@@ -1,0 +1,18 @@
+# .gitignore に以下を追記
+node_modules/
+.expo/
+dist/
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Firebase設定ファイル（機密情報を含む）
+google-services.json
+GoogleService-Info.plist
+
+# 環境変数
+.env
+.env.local
